@@ -1,4 +1,4 @@
-# ReDM STANDALONE SCRIPT
+# RedM STANDALONE SCRIPT
 
 # Features
 
