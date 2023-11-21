@@ -2,7 +2,7 @@
 
 # Features
 
-- You can wash your face and remove dirt from your ped near the barell props
+- You can wash your ped's face and remove dirt from your ped near the barrel props
 
 # Installation
 
