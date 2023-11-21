@@ -35,7 +35,7 @@ Citizen.CreateThread(function()
 			local pump = CreateVarString(10, 'LITERAL_STRING', 'Hordó')
 			PromptSetActiveGroupThisFrame(buttons_prompt, pump)
 			if PromptHasHoldModeCompleted(canteen) then
-				BarellAnim()
+				BarrelAnim()
 			end
         else 
 			near = 1000
@@ -43,7 +43,7 @@ Citizen.CreateThread(function()
     end
 end)
 
-function BarellAnim()
+function BarrelAnim()
     local pedCoords = GetEntityCoords(PlayerPedId())
     heading = GetEntityHeading(PlayerPedId())
     TaskStartScenarioAtPosition(PlayerPedId(), GetHashKey("PROP_PLAYER_WASH_FACE_BARREL"), pedCoords.x, pedCoords.y, pedCoords.z, heading, CleaningTime, true, false, 0, true)
